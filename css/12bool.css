@@ -101,7 +101,7 @@
 
 
 
-/* Offeset di colonna */
+/* Offset di colonna */
 
 .col-offset-1 {
     margin-left: calc((100% / 12) * 1);
