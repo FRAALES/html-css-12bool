@@ -16,10 +16,19 @@
 
 
 [class*="sotto-col-"]{
-    background-color: greenyellow;
+    background-color: rgb(94, 185, 34);
     color: white;
-    margin: 10px auto;
-    height: 80%;
+    height: 30px;
+    display: inline-block;
+    margin: 10px 1px;
+    border: none;
+    position: relative;
+    font-size: 12px;
+}
+
+.col-6{
+    display: flex;
+    padding: 0 20px;
 }
 
 .sotto-col-2{
@@ -30,4 +39,9 @@
 .sotto-col-8{
     flex-basis: calc((100% / 12) * 8);
     max-width: calc((100% / 12) * 8);
+}
+
+.sotto-col-6{
+    flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
 }
