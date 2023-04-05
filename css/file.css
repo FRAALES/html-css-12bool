@@ -13,3 +13,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+[class*="sotto-col-"]{
+    background-color: greenyellow;
+    color: white;
+    margin: 10px auto;
+    height: 80%;
+}
+
+.sotto-col-2{
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+}
+
+.sotto-col-8{
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+}
