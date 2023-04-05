@@ -45,3 +45,9 @@
     flex-basis: calc((100% / 12) * 6);
     max-width: calc((100% / 12) * 6);
 }
+
+.centrato2{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
