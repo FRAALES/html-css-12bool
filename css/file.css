@@ -2,5 +2,14 @@
     background-color: blue;
     height: 50px;
     color: white;
+    border: solid 1px white;
+    position: relative;
+}
 
+
+.centrato{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
